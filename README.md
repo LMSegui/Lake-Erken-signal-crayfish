@@ -16,6 +16,9 @@ DNA was extracted from crayfish hindguts, lake water, tap water, and food items 
 
 Only samples with 3 successful PCR runs were included in the analysis. Sequences were processed using DADA2 (Callahan et al., 2016), an R package for data quality filtering, paired-end merging, and chimera removal that produces amplicon sequence variants (ASV). ASVs, which are exact amplicon sequences as opposed to clustered sequences based on a threshold, were classified to family using the Ribosomal Database Project 16S rRNA database (release 11.5, Wang et al., 2007). The data are saved as a phyloseq object.
 
+**Files**
+- ps_rdp: phyloseq object
+
 **Phyloseq object**
 
 The object includes the following:
